@@ -11,6 +11,7 @@
     });
     app.get('/', (req, res) => {
         res.write("hello!!!")/*(path.join(__dirname, 'public', 'index.html'))*/;
+        res.write("hi ");
         res.end();
     });
 
